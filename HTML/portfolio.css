@@ -1,0 +1,41 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+
+.container {
+	width:970px;
+	min-height: 800px;
+	display: inline-block;
+	background-color: blue;
+}
+
+.header {
+	background-color: red;
+}
+
+.header h1 {
+	display: inline-block;
+	width:480px;
+}
+
+.header h2 {
+	display: inline-block;
+	width:480px;
+}
+.main{
+	background-color:purple;
+}
+.main img {
+	height:210px;
+}
+.about {
+	display: inline-block;
+	background:linear-gradient(to right,#FBFBFB,#DACBD9); 
+	width:427px;
+}
+
+.gradient_header {
+	color:white;
+	background:linear-gradient(#B3B2B6,#878593,#B3B2B6);
+}
