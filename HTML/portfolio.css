@@ -11,7 +11,7 @@
 }
 
 .header {
-	background-color: red;
+	background-color: #F7F7F7;
 }
 
 .header h1 {
@@ -23,19 +23,55 @@
 	display: inline-block;
 	width:480px;
 }
+
 .main{
-	background-color:purple;
+	background:radial-gradient(circle,#6F5963,#1A0A0E);
 }
-.main img {
+
+.photo_of_me {
 	height:210px;
+	border:5px solid #C0C0C0;
+	margin:20px;
 }
+
 .about {
 	display: inline-block;
 	background:linear-gradient(to right,#FBFBFB,#DACBD9); 
 	width:427px;
 }
 
+.project {
+	width:300px;
+	/*height: 400px;*/
+	display: inline-block;
+	margin:10px;
+	vertical-align: top;
+	background:linear-gradient(to right,#FBFBFB,#DACBD9); 
+}
+
+.proj_image {
+	height:165px;
+}
+
+.project p {
+	color:white;
+}
+
 .gradient_header {
 	color:white;
 	background:linear-gradient(#B3B2B6,#878593,#B3B2B6);
+}
+
+.tech_image {
+	height: 40px;
+	margin:10px;
+}
+
+.btn {
+	background-color: green;
+	display: block;
+	color:white;
+	padding:5px;
+	border-radius: 6px;
+	border:1px solid black;
 }
