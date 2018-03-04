@@ -29,7 +29,7 @@
 }
 
 .photo_of_me {
-	height:210px;
+	height:270px;
 	border:5px solid #C0C0C0;
 	margin:20px;
 }
@@ -37,12 +37,24 @@
 .about {
 	display: inline-block;
 	background:linear-gradient(to right,#FBFBFB,#DACBD9); 
-	width:427px;
+	width:452px;
+	height: 280px;
+	vertical-align: top;
+	margin:20px;
 }
 
+.about p {
+	padding:10px;
+}
+
+.about a {
+	color:black;
+	margin:10px;
+}
 .project {
 	width:300px;
 	/*height: 400px;*/
+	color:black;
 	display: inline-block;
 	margin:10px;
 	vertical-align: top;
@@ -54,7 +66,9 @@
 }
 
 .project p {
-	color:white;
+	height:162px;
+	color:black;
+	padding:10px;
 }
 
 .gradient_header {
@@ -64,12 +78,15 @@
 
 .tech_image {
 	height: 40px;
-	margin:10px;
+	margin:6px;
 }
 
 .btn {
 	background-color: green;
-	display: block;
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	margin:10px 90px;
 	color:white;
 	padding:5px;
 	border-radius: 6px;

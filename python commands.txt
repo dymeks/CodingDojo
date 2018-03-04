@@ -1,0 +1,11 @@
+ 1  python -m pip -V
+ 2  pip install Flask
+ 3  pip install Django==1.11.9
+ 4  pip list
+ 5  pip install Django==1.11.9
+ 6  pip freeze
+ 7  pip uninstall Django
+ 8  pip show Django
+ 9  pip search Flask
+10  python
+11  history
