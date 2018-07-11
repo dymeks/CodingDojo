@@ -175,3 +175,17 @@ def make_dictionary(list1,list2):
 	print new_dictionary
 make_dictionary(name,favorite_animal)		
 
+def foo_bar():
+	for number in range(100,100001):
+		isPrime = True
+		isPerfectSquare = False	
+		for num in range(1,number):
+			if (number % num == 0)
+				isPrime = False
+			if(num*num == number):
+				isPerfectSquare =True	
+		if(isPrime):
+			print number
+		if(isPerfectSquare):
+			print number		
+

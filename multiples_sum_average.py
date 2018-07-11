@@ -22,7 +22,8 @@
 # for number in arr:
 # 	sum2 += number
 # print sum2/len(arr)
-
+# try this either as a .py file or in the python shell
+import turtle
 #Assignment Filter By TYPE:
 def filter_by_type(value):
 	print 
@@ -130,10 +131,37 @@ def create_checkerboard():
 			print " * * * *"
 		else:
 			print "* * * * "	
-create_checkerboard()
+# create_checkerboard()
 
 def create_mulitiplication_table():
-	for row in range(0,13):
-		for col in range(0,13):
-			if(row == 0 and col == 0):
-				'x'
+	first_row ='* '
+	for num in range (1,13):
+		first_row = first_row + str(num) + " "
+	print first_row
+		
+	for row in range(1,13):
+		print_row = ''
+		for col in range(1,13):
+			print_row = print_row + str(row*col) +" ";
+		print print_row
+		# print str(row)  + "\n cl"	
+# create_mulitiplication_table()	
+
+def print_prime_print_square():
+	for number in range(100,100001):
+		isPrime = false;
+		for  in 
+
+
+# the distance we want the pointer to travel each time
+DIST = 100
+for x in range(0,6):
+    print "x", x
+    for y in range(1,5):
+        print "y", y
+        # turn the pointer 90 degrees to the right
+        turtle.right(90)
+        # advance according to set distance
+        turtle.forward(DIST)
+    # add to set distance
+    DIST += 20			
